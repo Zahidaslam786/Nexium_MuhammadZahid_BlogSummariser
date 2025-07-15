@@ -3,12 +3,11 @@
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"; // Removed CardFooter
 import { Copy, Download } from "lucide-react";
 import axios from "axios";
 
-export default function Home() 
-{
+export default function Home() {
   const [url, setUrl] = useState("");
   const [summary, setSummary] = useState("");
   const [urduSummary, setUrduSummary] = useState("");
@@ -32,7 +31,7 @@ export default function Home()
       setUrduSummary(response.data.urduSummary);
       setWordCount(response.data.wordCount || 0);
       setSaved(true);
-    } catch (err) {
+    } catch {
       setError("Failed to summarize. Please check the URL.");
     } finally {
       setLoading(false);
@@ -153,4 +152,4 @@ export default function Home()
       </footer>
     </div>
   );
-};
+}
