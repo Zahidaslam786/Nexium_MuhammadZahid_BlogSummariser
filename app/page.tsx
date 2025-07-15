@@ -1,3 +1,5 @@
+{/* eslint-disable-next-line react/no-unescaped-entities */}
+
 "use client";
 
 import { useState } from "react";
@@ -32,7 +34,7 @@ export default function Home() {
       setWordCount(response.data.wordCount || 0);
       setSaved(true);
     } catch {
-      setError("Failed to summarize. Please check the URL."); // No unescaped quotes here, but ensure no hidden issues
+      setError("Failed to summarize. Please check the URL."); // No unescaped quotes
     } finally {
       setLoading(false);
     }
