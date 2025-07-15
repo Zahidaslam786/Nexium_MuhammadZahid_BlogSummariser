@@ -32,7 +32,7 @@ export default function Home() {
       setWordCount(response.data.wordCount || 0);
       setSaved(true);
     } catch {
-      setError("Failed to summarize. Please check the URL.");
+      setError("Failed to summarize. Please check the URL."); // No unescaped quotes here, but ensure no hidden issues
     } finally {
       setLoading(false);
     }
