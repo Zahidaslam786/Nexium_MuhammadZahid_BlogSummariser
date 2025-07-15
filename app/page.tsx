@@ -1,11 +1,20 @@
+<<<<<<< HEAD
+=======
+{/* eslint-disable-next-line react/no-unescaped-entities */}
+>>>>>>> 00ceac7c6cb649bc6275720b0b74463a83be9dff
 
 "use client";
 
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+<<<<<<< HEAD
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Copy, Download, Tag, Share2 } from "lucide-react";
+=======
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"; // Removed CardFooter
+import { Copy, Download } from "lucide-react";
+>>>>>>> 00ceac7c6cb649bc6275720b0b74463a83be9dff
 import axios from "axios";
 
 export default function Home() {
@@ -33,7 +42,11 @@ export default function Home() {
       setWordCount(response.data.wordCount || 0);
       setSaved(true);
     } catch {
+<<<<<<< HEAD
       setError("Failed to summarize. Please check the URL.");
+=======
+      setError("Failed to summarize. Please check the URL."); // No unescaped quotes
+>>>>>>> 00ceac7c6cb649bc6275720b0b74463a83be9dff
     } finally {
       setLoading(false);
     }
@@ -200,4 +213,8 @@ export default function Home() {
       </footer>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 00ceac7c6cb649bc6275720b0b74463a83be9dff
