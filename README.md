@@ -1,5 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Vercel Link is: https://nexium-muhammad-zah-git-aa58e4-zahidaslam051-gmailcoms-projects.vercel.app
 ## Getting Started
 
 First, run the development server:
@@ -31,7 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel  https://nexium-muhammad-zahid-blog-summariser-q7l39vy8h.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://nexium-muhammad-zah-git-aa58e4-zahidaslam051-gmailcoms-projects.vercel.app) from the creators of Next.js.
 
 ==> Layout is:
 ![alt text](image-1.png)
