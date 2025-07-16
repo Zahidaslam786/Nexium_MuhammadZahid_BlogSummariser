@@ -1,4 +1,3 @@
-
 @tailwind utilities;
 
 @import "tailwindcss";
@@ -48,71 +47,71 @@
 
 :root {
   --radius: 0.625rem;
-  --background: #e0f2f1; /* Light Teal */
-  --foreground: #004d40; /* Dark Teal */
+  --background: #f3e5f5; /* Light Purple */
+  --foreground: #4a148c; /* Dark Purple */
   --card: #ffffffcc; /* Semi-transparent White */
-  --card-foreground: #004d40; /* Dark Teal */
-  --popover: #e0f2f1; /* Light Teal */
-  --popover-foreground: #004d40; /* Dark Teal */
-  --primary: #26a69a; /* Teal */
+  --card-foreground: #4a148c; /* Dark Purple */
+  --popover: #f3e5f5; /* Light Purple */
+  --popover-foreground: #4a148c; /* Dark Purple */
+  --primary: #ab47bc; /* Purple */
   --primary-foreground: #ffffff; /* White */
-  --secondary: #ff7043; /* Orange */
+  --secondary: #26a69a; /* Teal */
   --secondary-foreground: #ffffff; /* White */
-  --muted: #b2dfdb; /* Light Teal */
-  --muted-foreground: #00695c; /* Medium Teal */
-  --accent: #ff8a65; /* Light Orange */
+  --muted: #ce93d8; /* Light Purple */
+  --muted-foreground: #6a1b9a; /* Medium Purple */
+  --accent: #80deea; /* Light Teal */
   --accent-foreground: #ffffff; /* White */
   --destructive: #ef5350; /* Red */
-  --border: #b2dfdb; /* Light Teal */
-  --input: #b2dfdb; /* Light Teal */
-  --ring: #26a69a; /* Teal */
-  --chart-1: #4dd0e1; /* Cyan */
-  --chart-2: #ffca28; /* Amber */
-  --chart-3: #ab47bc; /* Purple */
-  --chart-4: #66bb6a; /* Green */
-  --chart-5: #ff7043; /* Orange */
-  --sidebar: #e0f2f1; /* Light Teal */
-  --sidebar-foreground: #004d40; /* Dark Teal */
-  --sidebar-primary: #26a69a; /* Teal */
+  --border: #ce93d8; /* Light Purple */
+  --input: #ce93d8; /* Light Purple */
+  --ring: #ab47bc; /* Purple */
+  --chart-1: #ce93d8; /* Light Purple */
+  --chart-2: #80deea; /* Light Teal */
+  --chart-3: #4dd0e1; /* Cyan */
+  --chart-4: #26a69a; /* Teal */
+  --chart-5: #ab47bc; /* Purple */
+  --sidebar: #f3e5f5; /* Light Purple */
+  --sidebar-foreground: #4a148c; /* Dark Purple */
+  --sidebar-primary: #ab47bc; /* Purple */
   --sidebar-primary-foreground: #ffffff; /* White */
-  --sidebar-accent: #ff8a65; /* Light Orange */
+  --sidebar-accent: #80deea; /* Light Teal */
   --sidebar-accent-foreground: #ffffff; /* White */
-  --sidebar-border: #b2dfdb; /* Light Teal */
-  --sidebar-ring: #26a69a; /* Teal */
+  --sidebar-border: #ce93d8; /* Light Purple */
+  --sidebar-ring: #ab47bc; /* Purple */
 }
 
 .dark {
-  --background: #004d40; /* Dark Teal */
-  --foreground: #e0f2f1; /* Light Teal */
-  --card: #004d40cc; /* Semi-transparent Dark Teal */
-  --card-foreground: #e0f2f1; /* Light Teal */
-  --popover: #004d40; /* Dark Teal */
-  --popover-foreground: #e0f2f1; /* Light Teal */
-  --primary: #80cbc4; /* Light Teal */
-  --primary-foreground: #004d40; /* Dark Teal */
-  --secondary: #ffab91; /* Light Orange */
-  --secondary-foreground: #004d40; /* Dark Teal */
-  --muted: #00695c; /* Medium Teal */
-  --muted-foreground: #b2dfdb; /* Light Teal */
-  --accent: #ffccbc; /* Very Light Orange */
-  --accent-foreground: #004d40; /* Dark Teal */
+  --background: #4a148c; /* Dark Purple */
+  --foreground: #f3e5f5; /* Light Purple */
+  --card: #4a148ccc; /* Semi-transparent Dark Purple */
+  --card-foreground: #f3e5f5; /* Light Purple */
+  --popover: #4a148c; /* Dark Purple */
+  --popover-foreground: #f3e5f5; /* Light Purple */
+  --primary: #ce93d8; /* Light Purple */
+  --primary-foreground: #4a148c; /* Dark Purple */
+  --secondary: #80deea; /* Light Teal */
+  --secondary-foreground: #4a148c; /* Dark Purple */
+  --muted: #6a1b9a; /* Medium Purple */
+  --muted-foreground: #ce93d8; /* Light Purple */
+  --accent: #b2ebf2; /* Very Light Teal */
+  --accent-foreground: #4a148c; /* Dark Purple */
   --destructive: #ef9a9a; /* Light Red */
-  --border: #00695c; /* Medium Teal */
-  --input: #00695c; /* Medium Teal */
-  --ring: #80cbc4; /* Light Teal */
-  --chart-1: #00acc1; /* Cyan */
-  --chart-2: #ffb300; /* Amber */
-  --chart-3: #ce93d8; /* Light Purple */
-  --chart-4: #81c784; /* Light Green */
-  --chart-5: #ffab91; /* Light Orange */
-  --sidebar: #004d40; /* Dark Teal */
-  --sidebar-foreground: #e0f2f1; /* Light Teal */
-  --sidebar-primary: #80cbc4; /* Light Teal */
-  --sidebar-primary-foreground: #004d40; /* Dark Teal */
-  --sidebar-accent: #ffccbc; /* Very Light Orange */
-  --sidebar-accent-foreground: #004d40; /* Dark Teal */
-  --sidebar-border: #00695c; /* Medium Teal */
-  --sidebar-ring: #80cbc4; /* Light Teal */
+  --border: #6a1b9a; /* Medium Purple */
+  --input: #6a1b9a; /* Medium Purple */
+  --ring: #ce93d8; /* Light Purple */
+  --chart-1: #b2ebf2; /* Very Light Teal */
+  --chart-2: #4dd0e1; /* Cyan */
+  --chart-3: #80deea; /* Light Teal */
+  --chart-4: #26a69a; /* Teal */
+  --chart-5: #ce93d8; /* Light Purple */
+  --sidebar: #4a148c; /* Dark Purple */
+  --sidebar-foreground: #f3e5f5; /* Light Purple */
+  --sidebar-primary: #ce93d8; /* Light Purple */
+  --sidebar-primary-foreground: #4a148c; /* Dark Purple */
+  --sidebar-accent: #b2ebf2; /* Very Light Teal */
+  --sidebar-accent-foreground: #4a148c; /* Dark Purple */
+  --sidebar-border: #6a1b9a; /* Medium Purple */
+  --sidebar-ring: #ce93d8; /* Light Purple */
 }
 
 @layer base {
