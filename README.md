@@ -1,7 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 Vercel Link is: https://nexium-muhammad-zah-git-aa58e4-zahidaslam051-gmailcoms-projects.vercel.app
-lIFE AT: https://nexium-muhammad-zahid-blog-summariser-k666rovb8.vercel.app
+
+LIFE AT: https://nexium-muhammad-zahid-blog-summariser-k666rovb8.vercel.app
+
 ## Getting Started
 
 First, run the development server:
