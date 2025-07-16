@@ -1,4 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -35,13 +34,9 @@ node_modules/
 .env
 *.log
 .next/
-<<<<<<< HEAD
-=======
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
->>>>>>> 00ceac7c6cb649bc6275720b0b74463a83be9dff
